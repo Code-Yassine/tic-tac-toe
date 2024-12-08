@@ -31,6 +31,7 @@ public class app extends JFrame{
                         name = "O";
                     }
                     buttons[row][col].setText(name);
+                    buttons[row][col].setEnabled(false);
                     Tableau[row][col] = name;
                     player = !player;
                     test();
@@ -101,5 +102,6 @@ public class app extends JFrame{
         draw = true;
     }
     public static void main(String[] args) {
+        new app();
     }
 }
