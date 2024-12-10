@@ -11,6 +11,7 @@ public class app extends JFrame{
     private static String name = null;
     private boolean draw = true;
 
+    
     public app(){
             setTitle("Tic Tac Toe");
             setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
